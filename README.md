@@ -9,8 +9,11 @@ Welcome to the **Oh My Posh Custom Themes** repository! This project offers a co
 - 🚀 Optimized for an improved user experience in the terminal.
 
 ## Quick Preview
-![App Screenshot](./Assets/Screenshot%20.png)
+<!-- ![App Screenshot](./Assets/Screenshot%20.png) -->
+<div align="center">
 
+![App Screenshot](./Assets/Screenshot-u.png)
+</div>
 
 ## 📋 Requirements
 
