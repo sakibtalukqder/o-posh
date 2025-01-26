@@ -45,7 +45,13 @@ Follow these steps to get started with the custom themes:
    ```
 
 
-3. **Create a PowerShell Profile and Openit in Notepad**
+4. **Get Powershell Path**
+
+```shell
+$env:Path += ";C:\Users\user\AppData\Local\Programs\oh-my-posh\bin"
+```
+
+4. **Create a PowerShell Profile and Openit in Notepad**
 
    To set up Oh My Posh, you'll need to create or edit your PowerShell profile. This profile runs every time a new PowerShell session starts.
    ```bash
@@ -61,6 +67,21 @@ Follow these steps to get started with the custom themes:
    ```bash
    oh-my-posh init pwsh --config '<path-to-your-cloned-repository>' | Invoke-Expression
    ```
+
+# **Install Terminal Icons**  
+
+```shell
+Install-Module -Name Terminal-Icons -Repository PSGallery
+Import-Module -Name Terminal-Icons
+```
+
+# notepad $PROFILE (For Windows)
+
+```bash
+& ([ScriptBlock]::Create((oh-my-posh init pwsh --config "$env:C:\Users\iam Readoy\Documents\o-posh\1_shell_v2.omp.json" --print) -join "`n"))
+Import-Module -Name Terminal-Icons
+```
+
 
 
 <div align="center">
